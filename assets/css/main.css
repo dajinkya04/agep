@@ -670,16 +670,18 @@ section {
   font-size: 13px;
 }
 .services .service-item .icon {
-  width: 70px;
-  height: 70px;
+  width: 68px;
+  height: 68px;
   left: 30%;
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin-bottom: 50px;
 }
 
 .services .service-item .icon img {
   // color: var(--color-default);
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 5px;
   height: 100%;
   width: 100%;
   transition: ease-in-out 0.3s;
@@ -698,7 +700,7 @@ section {
   border-radius: 50px;
   z-index: 1;
   top: 10px;
-  right: -20px;
+  right: -10px;
   transition: 0.3s;
 }
 
@@ -1067,11 +1069,11 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1rem;
+    padding: 50px;
     height: 100%;
   }
   .header-services h5 {
-    font-size: 10px;
+    font-size: 20px;
     color: #fff;
     font-weight: 800;
   }
@@ -1081,11 +1083,11 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1rem;
+    padding: 40px;
     height: 100%;
   }
   .header-services h5 {
-    font-size: 10px;
+    font-size: 15px;
     color: #fff;
     font-weight: 800;
   }
