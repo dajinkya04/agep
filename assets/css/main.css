@@ -655,19 +655,18 @@ section {
 
 .services .service-item {
   padding: 0px;
-  // background: #eeeeee;
-  // border: 0.2px solid;
   height: 100%;
-  // border-radius: 10px;
 }
 .services .service-item ol h5 {
   font-size: 12px;
   font-weight: 800;
   font-style: bold;
+  text-align: justify;
 }
 
 .services .service-item ol li {
   font-size: 13px;
+  text-align: justify;
 }
 .services .service-item .icon {
   width: 68px;
