@@ -22,10 +22,28 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  overflow-y:auto;
+  overflow-x:auto;
+}
 body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #363636;
+  // outline: 1px solid slategrey;
+  height:30%;
+}
+
 
 a {
   color: var(--color-primary);
