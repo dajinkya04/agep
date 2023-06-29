@@ -754,6 +754,17 @@ section {
   border-color: #fff;
 }
 
+// Section Image and Content
+ .image-container {
+      width: 100%;
+      height: auto;
+    }
+
+  .paragraph-container {
+      text-align: justify;
+      
+      
+    }
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
