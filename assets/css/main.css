@@ -107,6 +107,22 @@ section {
   color: #6f6f6f;
 }
 
+@media screen and (max-width: 768px) {
+  .section-header h2{
+    font-size:20px;
+  }
+}
+@media screen and (max-width: 550px) {
+   .section-header h2{
+    font-size:20px;
+  }
+}
+@media screen and (max-width: 375px) {
+   .section-header h2{
+    font-size:20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
@@ -669,8 +685,12 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding: 60px 0;
+  line-height:0.5;
 }
 
+.services a{
+  text-decoration:none;
+}
 .services .service-item {
   padding: 0px;
   height: 100%;
@@ -685,6 +705,7 @@ section {
 .services .service-item ol li {
   font-size: 13px;
   text-align: justify;
+  line-height:1.2;
 }
 .services .service-item .icon {
   width: 68px;
@@ -694,6 +715,7 @@ section {
   justify-content: center;
   position: relative;
   margin-bottom: 50px;
+  line-height:0.2;
 }
 
 .services .service-item .icon img {
@@ -704,6 +726,7 @@ section {
   transition: ease-in-out 0.3s;
   z-index: 1;
   position: absolute;
+  line-height:1;
 }
 .services .service-item .icon img:hover {
   transform: scale(1.1);
@@ -753,6 +776,16 @@ section {
 .services .service-item:hover h3 {
   border-color: #fff;
 }
+
+@media screen and (max-width: 375px) {
+  .services .service-item .icon img{
+    margin:0px 0px 0px 0px;
+    display:flex;
+    width:100%;
+  }
+}
+
+
 
 // Section Image and Content
  .image-container {
@@ -866,18 +899,6 @@ section {
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -899,29 +920,6 @@ section {
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #43a6c6;
-  border: 0;
-  padding: 14px 45px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: rgba(0, 131, 116, 0.8);
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1092,30 +1090,32 @@ section {
 // .viandmi{
 //   background:#f0f0f0;
 // }
+
 @media screen and (max-width: 375px) {
   .header-services {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding:2rem;
     height: 100%;
-  }
+        }
   .header-services h5 {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     font-weight: 800;
   }
 }
+
 @media screen and (max-width: 768px) {
   .header-services {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding: 2rem;
     height: 100%;
   }
   .header-services h5 {
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
     font-weight: 800;
   }
@@ -1125,7 +1125,7 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1rem;
+    padding: 2rem;
     height: 100%;
   }
   .header-services h5 {
