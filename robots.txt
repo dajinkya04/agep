@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: www.agepindia.com/sitemap.xml
